@@ -1,0 +1,22 @@
+{
+    "model": {
+        "name": "all",
+        "mode": "scratch",
+        "load_path": "saved_model_2023/regression_2023.pt",
+        "save_path": "saved_model_2023/regression_2023.pt"
+    },
+    "hyperparameters": {
+        "n_epochs": 500,
+        "learning_rate": 0.001,
+        "patience": 10,
+        "batch_size": 32
+    },
+    "dataset_path":{
+        "train_data_path" : "data/X.npy",
+        "labels_path" : "data/y.npy"
+    },
+
+    "scalar": {
+        "save_path" : "scaler.pkl"
+    }
+}
